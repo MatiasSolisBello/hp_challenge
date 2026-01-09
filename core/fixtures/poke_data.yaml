@@ -1,0 +1,476 @@
+- model: core.pokemon
+  pk: 1
+  fields:
+    name: bulbasaur
+    types:
+    - grass
+    - poison
+    height: 7
+    weight: 69
+    reversed_name: ruasablub
+- model: core.pokemon
+  pk: 2
+  fields:
+    name: ivysaur
+    types:
+    - grass
+    - poison
+    height: 10
+    weight: 130
+    reversed_name: ruasyvi
+- model: core.pokemon
+  pk: 3
+  fields:
+    name: venusaur
+    types:
+    - grass
+    - poison
+    height: 20
+    weight: 1000
+    reversed_name: ruasunev
+- model: core.pokemon
+  pk: 4
+  fields:
+    name: charmander
+    types:
+    - fire
+    height: 6
+    weight: 85
+    reversed_name: rednamrahc
+- model: core.pokemon
+  pk: 5
+  fields:
+    name: charmeleon
+    types:
+    - fire
+    height: 11
+    weight: 190
+    reversed_name: noelemrahc
+- model: core.pokemon
+  pk: 6
+  fields:
+    name: charizard
+    types:
+    - fire
+    - flying
+    height: 17
+    weight: 905
+    reversed_name: drazirahc
+- model: core.pokemon
+  pk: 7
+  fields:
+    name: squirtle
+    types:
+    - water
+    height: 5
+    weight: 90
+    reversed_name: eltriuqs
+- model: core.pokemon
+  pk: 8
+  fields:
+    name: wartortle
+    types:
+    - water
+    height: 10
+    weight: 225
+    reversed_name: eltrotraw
+- model: core.pokemon
+  pk: 9
+  fields:
+    name: blastoise
+    types:
+    - water
+    height: 16
+    weight: 855
+    reversed_name: esiotsalb
+- model: core.pokemon
+  pk: 10
+  fields:
+    name: caterpie
+    types:
+    - bug
+    height: 3
+    weight: 29
+    reversed_name: eipretac
+- model: core.pokemon
+  pk: 11
+  fields:
+    name: metapod
+    types:
+    - bug
+    height: 7
+    weight: 99
+    reversed_name: dopatem
+- model: core.pokemon
+  pk: 12
+  fields:
+    name: butterfree
+    types:
+    - bug
+    - flying
+    height: 11
+    weight: 320
+    reversed_name: eerfrettub
+- model: core.pokemon
+  pk: 13
+  fields:
+    name: weedle
+    types:
+    - bug
+    - poison
+    height: 3
+    weight: 32
+    reversed_name: eldeew
+- model: core.pokemon
+  pk: 14
+  fields:
+    name: kakuna
+    types:
+    - bug
+    - poison
+    height: 6
+    weight: 100
+    reversed_name: anukak
+- model: core.pokemon
+  pk: 15
+  fields:
+    name: beedrill
+    types:
+    - bug
+    - poison
+    height: 10
+    weight: 295
+    reversed_name: llirdeeb
+- model: core.pokemon
+  pk: 16
+  fields:
+    name: pidgey
+    types:
+    - normal
+    - flying
+    height: 3
+    weight: 18
+    reversed_name: yegdip
+- model: core.pokemon
+  pk: 17
+  fields:
+    name: pidgeotto
+    types:
+    - normal
+    - flying
+    height: 11
+    weight: 300
+    reversed_name: ottoegdip
+- model: core.pokemon
+  pk: 18
+  fields:
+    name: pidgeot
+    types:
+    - normal
+    - flying
+    height: 15
+    weight: 395
+    reversed_name: toegdip
+- model: core.pokemon
+  pk: 19
+  fields:
+    name: rattata
+    types:
+    - normal
+    height: 3
+    weight: 35
+    reversed_name: atattar
+- model: core.pokemon
+  pk: 20
+  fields:
+    name: raticate
+    types:
+    - normal
+    height: 7
+    weight: 185
+    reversed_name: etacitar
+- model: core.pokemon
+  pk: 21
+  fields:
+    name: spearow
+    types:
+    - normal
+    - flying
+    height: 3
+    weight: 20
+    reversed_name: woraeps
+- model: core.pokemon
+  pk: 22
+  fields:
+    name: fearow
+    types:
+    - normal
+    - flying
+    height: 12
+    weight: 380
+    reversed_name: woraef
+- model: core.pokemon
+  pk: 23
+  fields:
+    name: ekans
+    types:
+    - poison
+    height: 20
+    weight: 69
+    reversed_name: snake
+- model: core.pokemon
+  pk: 24
+  fields:
+    name: arbok
+    types:
+    - poison
+    height: 35
+    weight: 650
+    reversed_name: kobra
+- model: core.pokemon
+  pk: 25
+  fields:
+    name: pikachu
+    types:
+    - electric
+    height: 4
+    weight: 60
+    reversed_name: uhcakip
+- model: core.pokemon
+  pk: 26
+  fields:
+    name: raichu
+    types:
+    - electric
+    height: 8
+    weight: 300
+    reversed_name: uhciar
+- model: core.pokemon
+  pk: 27
+  fields:
+    name: sandshrew
+    types:
+    - ground
+    height: 6
+    weight: 120
+    reversed_name: werhsdnas
+- model: core.pokemon
+  pk: 28
+  fields:
+    name: sandslash
+    types:
+    - ground
+    height: 10
+    weight: 295
+    reversed_name: hsalsdnas
+- model: core.pokemon
+  pk: 29
+  fields:
+    name: nidoran-f
+    types:
+    - poison
+    height: 4
+    weight: 70
+    reversed_name: f-narodin
+- model: core.pokemon
+  pk: 30
+  fields:
+    name: nidorina
+    types:
+    - poison
+    height: 8
+    weight: 200
+    reversed_name: anirodin
+- model: core.pokemon
+  pk: 31
+  fields:
+    name: nidoqueen
+    types:
+    - poison
+    - ground
+    height: 13
+    weight: 600
+    reversed_name: neeuqodin
+- model: core.pokemon
+  pk: 32
+  fields:
+    name: nidoran-m
+    types:
+    - poison
+    height: 5
+    weight: 90
+    reversed_name: m-narodin
+- model: core.pokemon
+  pk: 33
+  fields:
+    name: nidorino
+    types:
+    - poison
+    height: 9
+    weight: 195
+    reversed_name: onirodin
+- model: core.pokemon
+  pk: 34
+  fields:
+    name: nidoking
+    types:
+    - poison
+    - ground
+    height: 14
+    weight: 620
+    reversed_name: gnikodin
+- model: core.pokemon
+  pk: 35
+  fields:
+    name: clefairy
+    types:
+    - fairy
+    height: 6
+    weight: 75
+    reversed_name: yriafelc
+- model: core.pokemon
+  pk: 36
+  fields:
+    name: clefable
+    types:
+    - fairy
+    height: 13
+    weight: 400
+    reversed_name: elbafelc
+- model: core.pokemon
+  pk: 37
+  fields:
+    name: vulpix
+    types:
+    - fire
+    height: 6
+    weight: 99
+    reversed_name: xipluv
+- model: core.pokemon
+  pk: 38
+  fields:
+    name: ninetales
+    types:
+    - fire
+    height: 11
+    weight: 199
+    reversed_name: selatenin
+- model: core.pokemon
+  pk: 39
+  fields:
+    name: jigglypuff
+    types:
+    - normal
+    - fairy
+    height: 5
+    weight: 55
+    reversed_name: ffupylggij
+- model: core.pokemon
+  pk: 40
+  fields:
+    name: wigglytuff
+    types:
+    - normal
+    - fairy
+    height: 10
+    weight: 120
+    reversed_name: ffutylggiw
+- model: core.pokemon
+  pk: 41
+  fields:
+    name: zubat
+    types:
+    - poison
+    - flying
+    height: 8
+    weight: 75
+    reversed_name: tabuz
+- model: core.pokemon
+  pk: 42
+  fields:
+    name: golbat
+    types:
+    - poison
+    - flying
+    height: 16
+    weight: 550
+    reversed_name: tablog
+- model: core.pokemon
+  pk: 43
+  fields:
+    name: oddish
+    types:
+    - grass
+    - poison
+    height: 5
+    weight: 54
+    reversed_name: hsiddo
+- model: core.pokemon
+  pk: 44
+  fields:
+    name: gloom
+    types:
+    - grass
+    - poison
+    height: 8
+    weight: 86
+    reversed_name: moolg
+- model: core.pokemon
+  pk: 45
+  fields:
+    name: vileplume
+    types:
+    - grass
+    - poison
+    height: 12
+    weight: 186
+    reversed_name: emulpeliv
+- model: core.pokemon
+  pk: 46
+  fields:
+    name: paras
+    types:
+    - bug
+    - grass
+    height: 3
+    weight: 54
+    reversed_name: sarap
+- model: core.pokemon
+  pk: 47
+  fields:
+    name: parasect
+    types:
+    - bug
+    - grass
+    height: 10
+    weight: 295
+    reversed_name: tcesarap
+- model: core.pokemon
+  pk: 48
+  fields:
+    name: venonat
+    types:
+    - bug
+    - poison
+    height: 10
+    weight: 300
+    reversed_name: tanonev
+- model: core.pokemon
+  pk: 49
+  fields:
+    name: venomoth
+    types:
+    - bug
+    - poison
+    height: 15
+    weight: 125
+    reversed_name: htomonev
+- model: core.pokemon
+  pk: 50
+  fields:
+    name: diglett
+    types:
+    - ground
+    height: 2
+    weight: 8
+    reversed_name: ttelgid
