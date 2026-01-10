@@ -90,7 +90,13 @@
                         <td>{{ pokemon.name|title }}</td>
                         <td>
                             {% for type in pokemon.types %}
-                                <span class="badge bg-primary">{{ type }}</span>
+                                <span class="badge 
+                                    {% if type == 'grass' %}bg-success
+                                    {% elif type == 'flying' %}bg-info
+                                    {% else %}bg-primary{% endif %}">
+                                    {{ type }}
+                                </span>
+
                             {% endfor %}
                         </td>
                         <td>{{ pokemon.height }}</td>
