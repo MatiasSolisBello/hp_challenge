@@ -1,0 +1,23 @@
+services:
+  web:
+    build: .
+    container_name: hp_challenge
+    env_file:
+      - .env
+    volumes:
+      - .:/core
+      - ./data:/core/data
+    ports:
+      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
+
+
+  load_pokemon:
+      build: .
+      env_file:
+        - .env
+      volumes:
+        - .:/core
+        - ./data:/core/data
+      command: python manage.py load_pokemon
+    
