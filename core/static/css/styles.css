@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+}

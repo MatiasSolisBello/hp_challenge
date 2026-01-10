@@ -8,7 +8,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self.stdout.write(self.style.NOTICE(f"Cargando Pokemones..."))
-
         try:
             PokeAPIService.load_pokemons()
         except Exception as exc:
