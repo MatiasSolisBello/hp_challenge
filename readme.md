@@ -15,21 +15,20 @@ pip install -r requirements.txt
 
 Migraciones
 ```bash
-python manage.py makemigrations
 python manage.py migrate
 ```
 
-Crear superusuario
+Crear superusuario (Opcional)
 ```bash
 python manage.py createsuperuser
 ```
 
-Crear archivo .env dentro del folder "hp_challenge".
+Crear archivo .env. Usar como base .env.example
 
 Cargar la base de datos con pokemones por comando personalizado o YAML:
 
 ```bash
-python manage.py load_pokemon
+python manage.py load_pokemon  //Preferente
 
 python manage.py loaddata poke_data.yaml
 ```
